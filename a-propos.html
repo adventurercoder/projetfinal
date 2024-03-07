@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadeejah's Clothes</title>
+    <!-- link bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="./boostrap/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./CSS/apropos.css" />
+
+    <!-- link font-awesome pour ajouter des Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <!-- logo du site sur l'onglet du navigateur -->
+    <link rel="shortcut icon" href="./image/KC.png" type="image/x-icon" />
+</head>
+<body>
+    <header class="header">
+        <!-- Menu de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- bouton du menu en mode responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <!-- Menu de navigation  -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!-- logo du menu -->
+              <a class="navbar-brand" href="index.html">
+                <img src="./image/KC-logo.png" class="logo" alt="logo" width="100px" height="100px"/>
+              </a>
+              
+              <ul class="navbar-nav">
+                <!-- Premier lien du menu -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="boutique.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Boutique
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="boutique.html">Jilbab</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Robe</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Ensemble</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Voile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Khimar</a></li>
+                  </ul>
+                </li>
+                <!-- Deuxième Lien du menu -->
+                <li class="nav-item">
+                  <a class="nav-link" href="a-propos.html">A PROPOS</a>
+                </li>
+                <!-- Deuxième Lien du menu -->
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">NOUS CONTACTER</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+  
+    <!-- section avec image de couverture -->
+    <section class="hero">
+        <div class="container">
+          <h1>À Propos</h1>
+          <p>
+            Découvrez notre collection d’abayas élégantes pour la femme moderne et chic.
+          </p>
+        </div>
+    </section>
+
+    <!-- Contain A Propos -->
+    <section class="a-propos">
+        <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <img src="./image/robe.jpeg" alt="">
+              </div>
+
+              <div class="col-5 shipping">
+                <h1>Livraison Internationale avec GP</h1>
+                <h4>Votre Style, Partout dans le Monde</h4>
+                <p>
+                    Chez Khadeejah's Clothes, nous sommes ravis de pouvoir 
+                    vous offrir notre élégance Mastour où que vous soyez dans le monde. 
+                    Pour profiter de notre service de livraison internationale, 
+                    suivez ces étapes simples :
+                </p>
+
+                <div class="row last-propos">
+                    <div class="col">
+                      <div class="flex">
+                        <span><i class="fa-solid fa-user"></i></span>
+                        <h1>Validez d'abord votre commande à Dakar</h1>
+                      </div>
+                      <p>
+                        Pour garantir une expérience fluide, nous vous recommandons 
+                        de passer votre commande avec une adresse de livraison à Dakar. 
+                        Une fois votre commande validée, notre équipe se mettra au travail.
+                      </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                      <div class="flex">
+                        <span><i class="fa-solid fa-file-lines"></i></span>
+                        <h1>Obtenez un Devis Personnalisé</h1>
+                      </div>  
+                      <p>
+                        Après avoir validé votre commande à Dakar, 
+                        nous vous enverrons un devis pour la livraison 
+                        internationale en fonction de votre destination.
+                      </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                      <div class="flex">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <h1>Contactez notre Service Commercial</h1>
+                      </div>
+                      <p>
+                          Si vous préférez obtenir des informations sur la livraison 
+                          internationale avant de passer votre commande, 
+                          n'hésitez pas à contacter notre service commercial 
+                          sur WhatsApp au +221 78 178 17 92. Notre équipe
+                          sera ravie de répondre à toutes vos questions 
+                          et de vous aider à finaliser votre commande.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Second Contain A Propos -->
+    <section class="second-contain">
+        <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <h1>Nos Valeurs</h1>
+                <div class="bloc-1">
+                  <span class="first">“Khadeejah's Clothes: Plus qu’une Marque, Une Communauté”</span>
+                  <p>
+                    Chez Khadeejah's Clothes, nous allons au-delà de la simple boutique en ligne.
+                    Nous sommes une communauté dévouée à célébrer la beauté de la modestie. 
+                    Notre mission profonde est de démontrer que la mode peut être 
+                    à la fois une expression personnelle et un reflet des valeurs 
+                    de pudeur et d’élégance ancrées dans la culture musulmane. 
+                    Chacune de nos tenues incarne ces valeurs,
+                    et nous nous engageons à maintenir cette authenticité.
+                  </p>
+                </div>
+
+                <div class="bloc-2">
+                  <span class="first">“Qualité au Cœur de Notre Démarche”</span>
+                  <p>
+                    La qualité est au cœur de notre démarche. 
+                    Nous croyons que chaque tenue doit être intemporelle 
+                    et conçue avec des matériaux de première qualité 
+                    et une attention scrupuleuse aux détails. 
+                    Chaque tenue que nous offrons reflète notre dévouement à l’excellence.
+                  </p>
+                </div>
+
+                <div class="bloc-3">
+                  <span class="first">“Diversité pour Vous”</span>
+                  <p>
+                    La diversité est un pilier essentiel de notre boutique. 
+                    Notre collection de prêt-à-porter s’étend sur une large gamme de styles, 
+                    designs et couleurs pour répondre aux besoins variés de nos clientes. 
+                    Nous sommes là pour vous offrir des choix qui correspondent à votre style unique.
+                  </p>
+                </div>
+
+                <p>
+                  N’hésitez pas à nous contacter si vous avez d’autres questions ou besoins d’informations. 
+                  Nous sommes heureux de faire partie de votre voyage de mode Mastour.
+                </p>
+              </div>
+
+              <div class="col-5">
+                <img src="./image/robe2.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Third Contain -->
+    <section class="third-contain">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="icon"><i class="fa-solid fa-gem"></i></span>
+                    <h1>Elegance Moderne</h1>
+                    <p>
+                        Les tenues de Khadeejah's Clothes sont conçues pour la femme musulmane moderne, alliant sophistication et modestie.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <span class="icon"><i class="fa-solid fa-people-arrows"></i></span>
+                    <h1>Diversité de Styles</h1>
+                    <p>
+                        Notre collection comprend une variété d'abayas, des designs classiques 
+                        aux pièces tendance, pour répondre à toutes les occasions et préférences.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <span class="icon"><i class="fa-solid fa-truck-fast"></i></span>
+                    <h1>Livraison au Sénégal</h1>
+                    <p>
+                        Profitez de notre service de livraison pratique pour découvrir 
+                        la mode modeste à votre porte, où que vous soyez au Sénégal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Show Our Shop -->
+    <section class="shop">
+        <div class="row">
+            <div class="col">
+                <h1>Visitez Notre Boutique</h1>
+                <p>
+                    Entrez dans notre boutique et explorez une collection élégante 
+                    de tenues conçues pour sublimer votre beauté naturelle. 
+                    Bienvenue dans notre univers de l’élégance et de la modestie.
+                </p>
+            </div>
+            <div class="col">
+                <button class="btn-shop"><a href="./boutique.html">Faire mon Shopping</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-3 social-icons">
+                  <!-- Icône réseau social 1 -->
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <!-- Icône réseau social 2 -->
+                  <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <div class="col-md-6 footer-nav">
+                  <!-- Menu de navigation -->
+                  <ul class="menu-list">
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a class="active" href="a-propos.html">À propos</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row foot-bottom">
+            <div class="col-md-6">
+              <div class="row section">
+                <div class="col footer-section">
+                  <h4>Liens utiles</h4>
+                  <ul>
+                    <li><a href="#">Remboursement et Retours</a></li>
+                    <li><a href="#">Conditions d'utilisation</a></li>
+                  </ul>
+                </div>
+                <div class="col footer-section">
+                  <h4>Articles</h4>
+                  <ul>
+                    <li><a href="#">Nos ensembles</a></li>
+                    <li><a href="#">Nos Abayas</a></li>
+                  </ul>
+                  <h4>Info Utile</h4>
+                  <p style="text-align: left;">Nous n'acceptons pas de retours pour les tenues livrées en dehors du Sénégal.</p>
+                </div>
+                <div class="col footer-section">
+                  <h4>Notre politique</h4>
+                  <ul>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="#">Utilisation des cookies</a></li>
+                  </ul>
+                  <h4>Conditions de Livraison</h4>
+                  <p style="text-align: left;">Pour toute livraison en dehors du Sénégal, veuillez contacter notre service commercial.</p>
+                </div>
+                <div class="col footer-section">
+                  <h4>Nous contacter</h4>
+                  <p style="text-align: left;">Pour toute demande, veuillez nous contacter comme suit:</p>
+                  <div class="adress">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <div class="adress-name">Adresse: <br> <span>Dakar, Senegal</span></div>
+                  </div>
+                  <div class="phone">
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <div class="phone-name">Phone: <br> <span>+221 78 178 17 92</span></div>
+                  </div>
+                  <div class="email">
+                    <span><i class="fa-solid fa-at"></i></span>
+                    <div class="email-name">Email: <span>fagueyediop02@gmail.com</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Copyright -->
+          <div class="row foot-copyright">
+            <div class="col">
+              <p>Copyright © 2024 - Khadeejah's Clothes</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+      
+    <!-- JS Carousel, toujours ajouter le script bundle.min.js pour activer le carousel -->
+    <script src="script.js"></script>
+    <script src="./boostrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</body>
+</html>

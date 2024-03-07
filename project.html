@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenue chez Khadeejah's Clothes</title>
+
+    <!-- link bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="./boostrap/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <!-- link font-awesome pour ajouter des Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- logo du site sur l'onglet du navigateur -->
+    <link rel="shortcut icon" href="./image/KC.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Menu de navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <!-- bouton du menu en mode responsive -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu de navigation  -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- logo du menu -->
+            <a class="navbar-brand" href="index.html">
+              <img src="./image/KC-logo.png" class="logo" alt="logo" width="100px" height="100px"/>
+            </a>
+            
+            <ul class="navbar-nav">
+              <!-- Premier lien du menu -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="boutique.html" id="navbarDropdown" role="button" data-toggle="collapse" data-bs-toggle="dropdown" aria-expanded="false">
+                  Boutique
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="boutique.html">Jilbab</a></li>
+                  <li><hr class="dropdown-divider"></li>
+
+                  <li><a class="dropdown-item" href="boutique.html">Robe</a></li>
+                  <li><hr class="dropdown-divider"></li>
+
+                  <li><a class="dropdown-item" href="boutique.html">Ensemble</a></li>
+                  <li><hr class="dropdown-divider"></li>
+
+                  <li><a class="dropdown-item" href="boutique.html">Voile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+
+                  <li><a class="dropdown-item" href="boutique.html">Khimar</a></li>
+                </ul>
+              </li>
+              <!-- Deuxième Lien du menu -->
+              <li class="nav-item">
+                <a class="nav-link" href="a-propos.html">A PROPOS</a>
+              </li>
+              <!-- Deuxième Lien du menu -->
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">NOUS CONTACTER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section avec image de couverture -->
+    <section class="hero">
+      <div class="container">
+        <h1>L'Élégance <span>FA</span> à Portée de Toutes</h1>
+        <p>
+          Bienvenue dans l’univers de Khadeejah's Clothes, 
+          où chaque femme incarne la beauté de la modestie. 
+          Votre présence ici donne vie à notre vision de la mode. 
+          Plongez dans notre collection unique de robes, 
+          créées pour mettre en lumière votre élégance personnelle.
+        </p>
+
+        <div class="btn-hero">
+          <button class="btn1"><a href="boutique.html">Découvrir la Collection</a></button>
+          <button class="btn2"><a href="a-propos.html">À Propos</a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produits Populaires -->
+    <section class="container-fluid product1">
+      <div class="container">
+        <div class="all-title">
+          <h1 class="title">Nos Best Sellers</h1>
+          <p class="sub-title">Découvrez nos produits les plus populaires : l’élégance modeste à son meilleur.</p>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="img-1"><img src="./image/jilbeb1.jpg" alt="jilbeb1"></div>
+            <div class="title-product1"><a href="boutique.html">Kimono Dress</a></div>
+            <div class="price">15.000CFA</div>
+            <div class="category">Abayas</div>
+            <button class="btn1"><a href="boutique.html">Choix des options </a></button>
+          </div>
+          <div class="col-4">
+            <div class="img-1"><img src="./image/robe2.jpeg" alt=""></div>
+            <div class="title-product1"><a href="boutique.html">Ama Set</a></div>
+            <div class="price">15.000CFA</div>
+            <div class="category">Abayas</div>
+            <button class="btn1"><a href="boutique.html">Choix des options </a></button>
+          </div>
+          <div class="col-4">
+            <div class="img-1"><img src="./image/Ensemble/Ensemble10.jpeg" alt=""></div>
+            <div class="title-product1"><a href="boutique.html">Robe</a></div>
+            <div class="price">15.000CFA</div>
+            <div class="category">Abayas</div>
+            <button class="btn1"><a href="boutique.html">Choix des options </a></button>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- Code Promo -->
+    <section class="promo">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 welcome-code">
+            <h1>Code de bienvenue</h1>
+            <span>Bienvenue chez Khadeejah's Clothes</span>
+            <br><br>
+            <p>
+              Pour célébrer le lancement de nos activités, nous offrons la 
+              livraison gratuite à nos 15 premiers clients à Dakar. Utilisez le 
+              code: WELCOME pour bénéficier de la livraison gratuite sur 
+              votre première commande. <br><br>
+
+              Découvrez notre collection de mode pour femme musulmane dès maintenant.
+            </p>
+          </div>
+          <div class="col-5">
+            <div class="img">
+              <img src="./image/robe-3.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Nos Abayas -->
+     <section class="container-fluid product2">
+      <div class="container">
+        <div class="all-title">
+          <h1 class="title">Nos Abayas</h1>
+          <p class="sub-title">Économisez sur l’Élégance Modeste. Découvrez nos abayas magnifiques et disponibles à des prix avantageux.</p>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="img-1"><img src="./image/voile.jpeg" alt=""></div>
+            <div class="title-product1"><a href="boutique.html">Voile en Soie</a></div>
+            <div class="price">5.000CFA</div>
+            <div class="category">Voile</div>
+            <button class="btn1"><a href="boutique.html">Choix des options</a></button>
+          </div>
+          <div class="col-4">
+            <div class="img-1"><img src="./image/khimar/khimar1.jpg" alt="khimar1"></div>
+            <div class="title-product1"><a href="boutique.html">Khimar Set</a></div>
+            <div class="price">5.000CFA</div>
+            <div class="category">Khimar</div>
+            <button class="btn1"><a href="boutique.html">Choix des options</a></button>
+          </div>
+          <div class="col-4">
+            <div class="img-1"><img src="./image/Ensemble/Ensemble10.jpeg" alt=""></div>
+            <div class="title-product1"><a href="boutique.html">Robe</a></div>
+            <div class="price">15.000CFA</div>
+            <div class="category">Abayas</div>
+            <button class="btn1"><a href="boutique.html">Choix des options</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h1>FAQ</h1>
+      <p>
+        Explorez nos réponses aux questions fréquemment posées pour en savoir plus sur notre boutique et nos produits.
+      </p>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button accordion-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              EST-CE QUE VOUS LIVREZ PARTOUT DANNS LE MONDE ?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Pour nos clients internationaux, nous vous invitons à passer directement  
+              commande <br> sur notre site web. Une fois votre commande passée, <br>
+              contactez notre équipe commerciale <br> sur WhatsApp au numéro suivant : 
+              +221 78 178 17 92 pour obtenir un devis précis <br>
+              des frais de livraison externes au pays. <br>
+              Nous sommes là pour rendre la mode Mastour accessible partout dans le monde.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button accordion-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              QUAND EST-CE QUE JE REÇOIS MON COLIS ?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Ces délais sont estimés, et nous faisons tout notre possible 
+              pour vous livrer <br> rapidement et en toute sécurité.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button accordion-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              QUELS MODES DE PAIEMENT ACCEPTEZ-VOUS ?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Pour l’instant, nous acceptons les paiements à la livraison <br> 
+              pour les clients à Dakar. <br> Vous pouvez régler votre commande 
+              en utilisant Orange Money,<br> Wave ou en espèces 
+              à la réception de votre colis. <br> Nous travaillons également 
+              à élargir nos options <br> de paiement pour mieux vous servir.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-3 social-icons">
+                <!-- Icône réseau social 1 -->
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <!-- Icône réseau social 2 -->
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+              </div>
+              <div class="col-md-6 footer-nav">
+                <!-- Menu de navigation -->
+                <ul class="menu-list">
+                  <li><a class="active" href="boutique.html">Boutique</a></li>
+                  <li><a href="a-propos.html">À propos</a></li>
+                  <li><a href="contact.html">Nous contacter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row foot-bottom">
+          <div class="col-md-6">
+            <div class="row section">
+              <div class="col footer-section">
+                <h4>Liens utiles</h4>
+                <ul>
+                  <li><a href="#">Remboursement et Retours</a></li>
+                  <li><a href="#">Conditions d'utilisation</a></li>
+                </ul>
+              </div>
+              <div class="col footer-section">
+                <h4>Articles</h4>
+                <ul>
+                  <li><a href="#">Nos ensembles</a></li>
+                  <li><a href="#">Nos Abayas</a></li>
+                </ul>
+                <h4>Info Utile</h4>
+                <p style="text-align: left;">Nous n'acceptons pas de retours pour les tenues livrées en dehors du Sénégal.</p>
+              </div>
+              <div class="col footer-section">
+                <h4>Notre politique</h4>
+                <ul>
+                  <li><a href="#">Politique de confidentialité</a></li>
+                  <li><a href="#">Utilisation des cookies</a></li>
+                </ul>
+                <h4>Conditions de Livraison</h4>
+                <p style="text-align: left;">Pour toute livraison en dehors du Sénégal, veuillez contacter notre service commercial.</p>
+              </div>
+              <div class="col footer-section">
+                <h4>Nous contacter</h4>
+                <p style="text-align: left;">Pour toute demande, veuillez nous contacter comme suit:</p>
+                <div class="adress">
+                  <span><i class="fa-solid fa-location-dot"></i></span>
+                  <div class="adress-name">Adresse: <br> <span>Dakar, Senegal</span></div>
+                </div>
+                <div class="phone">
+                  <span><i class="fa-solid fa-phone"></i></span>
+                  <div class="phone-name">Phone: <br> <span>+221 78 178 17 92</span></div>
+                </div>
+                <div class="email">
+                  <span><i class="fa-solid fa-at"></i></span>
+                  <div class="email-name">Email: <span>fagueyediop02@gmail.com</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row foot-copyright">
+          <div class="col">
+            <p>Copyright © 2024 - Khadeejah's Clothes</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+    <!-- JS Carousel, toujours ajouter le script bundle.min.js pour activer le carousel -->
+    <script src="script.js"></script>
+    <script src="./boostrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  </body>
+</html>

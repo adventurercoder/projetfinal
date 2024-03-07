@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khadeejah's Clothes</title>
+
+  <!-- link bootstrap CSS -->
+  <link rel="stylesheet" href="./CSS/boutique.css">
+  <link rel="stylesheet" href="./boostrap/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    
+  <!-- link font-awesome pour ajouter des Icônes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <!-- logo du site sur l'onglet du navigateur -->
+  <link rel="shortcut icon" href="./image/KC.png" type="image/x-icon" />
+</head>
+<body>
+    <header class="header">
+        <!-- Menu de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- bouton du menu en mode responsive -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <!-- Menu de navigation  -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!-- logo du menu -->
+              <a class="navbar-brand" href="index.html">
+                <img src="./image/KC-logo.png" class="logo" alt="logo" width="100px" height="100px"/>
+              </a>
+              
+              <ul class="navbar-nav">
+                <!-- Premier lien du menu -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="boutique.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Boutique
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="boutique.html">Jilbab</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Robe</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Ensemble</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Voile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li><a class="dropdown-item" href="boutique.html">Khimar</a></li>
+                  </ul>
+                </li>
+                <!-- Deuxième Lien du menu -->
+                <li class="nav-item">
+                  <a class="nav-link" href="a-propos.html">A PROPOS</a>
+                </li>
+                <!-- Deuxième Lien du menu -->
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">NOUS CONTACTER</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <!-- section avec image de couverture -->
+    <section class="hero">
+        <div class="container">
+          <h1>Boutique</h1>
+          <nav aria-label="breadcrumb btn-hero">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+              <li class="breadcrumb-item"><a href="#">Boutique</a></li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+
+    <!-- product -->
+    <div class="container product">
+      <!-- Jilbab -->
+      <div class="row">
+          <div class="col-md-3">
+              <div class="product">
+                  <img src="./image/jilbeb1.jpg" alt="Produit 1">
+                  <h4>Nom du Produit 1</h4>
+                  <p class="prix">Prix : 20.000 CFA</p>
+                  <p class="category">Abaya</p>
+                  <a href="jilbeb1.html" class="btn">Choix des options</a>
+              </div>
+          </div>
+  
+          <div class="col-md-3">
+              <div class="product">
+                  <img src="./image/jilbeb2.jpg" alt="Produit 2">
+                  <h4>Nom du Produit 2</h4>
+                  <p class="prix">Prix : 25.000 CFA</p>
+                  <p class="category">Khimar</p>
+                  <a href="#" class="btn">Choix des options</a>
+              </div>
+          </div>
+  
+          <div class="col-md-3">
+              <div class="product">
+                  <img src="image/jilbeb3 (2).jpg" alt="Produit 3">
+                  <h4>Nom du Produit 3</h4>
+                  <p class="prix">Prix : 30.000 CFA</p>
+                  <p class="category">Abaya</p>
+                  <a href="#" class="btn">Choix des options</a>
+              </div>
+          </div>
+  
+          <div class="col-md-3">
+              <div class="product">
+                  <img src="image/jilbab4.jpg" alt="Produit 4">
+                  <h4>Nom du Produit 4</h4>
+                  <p class="prix">Prix : 22.000 CFA</p>
+                  <p class="category">Khimar</p>
+                  <a href="#" class="btn">Choix des options</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Robe -->
+      <div class="row">
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/robe1.jpeg" alt="Produit 1">
+                <h4>Nom du Produit 1</h4>
+                <p class="prix">Prix : 20.000 CFA</p>
+                <p class="category">Robe soie 1</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/robe2.jpeg" alt="Produit 2">
+                <h4>Nom du Produit 2</h4>
+                <p class="prix">Prix : 25.000 CFA</p>
+                <p class="category">Robe fashion</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/robe3.jpeg" alt="Produit 3">
+                <h4>Nom du Produit 3</h4>
+                <p class="prix">Prix : 30.000 CFA</p>
+                <p class="category">Robe</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/robe4.jpeg" alt="Produit 4">
+                <h4>Nom du Produit 4</h4>
+                <p class="prix">Prix : 22.000 CFA</p>
+                <p class="category">Robe maron</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+      </div>
+
+      <!-- Ensemble -->
+      <div class="row">
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/Ensemble/Ensemble1.jpeg" alt="Produit 1">
+                <h4>Nom du Produit 1</h4>
+                <p class="prix">Prix : 20.000 CFA</p>
+                <p class="category">Ensemble turc</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/Ensemble/Ensemble7.jpeg" alt="Produit 2">
+                <h4>Nom du Produit 2</h4>
+                <p class="prix">Prix : 25.000 CFA</p>
+                <p class="category">Ensemble marocain</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/Ensemble/Ensemble8.jpeg" alt="Produit 3">
+                <h4>Nom du Produit 3</h4>
+                <p class="prix">Prix : 30.000 CFA</p>
+                <p class="category">Ensemble Belge</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/Ensemble/Ensemble9.jpeg" alt="Produit 4">
+                <h4>Nom du Produit 4</h4>
+                <p class="prix">Prix : 22.000 CFA</p>
+                <p class="category">Ensemble chic</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+      </div>
+
+      <!-- Voile -->
+      <div class="row">
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/voile.jpeg" alt="Produit 1">
+                <h4>Nom du Produit 1</h4>
+                <p class="prix">Prix : 1.000 CFA</p>
+                <p class="category">Habiba</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="./image/voiles/voiles.jpeg" alt="Produit 2">
+                <h4>Nom du Produit 2</h4>
+                <p class="prix">Prix : 2.500 CFA</p>
+                <p class="category">Voile chic</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="image/voiles/voile3.jpg" alt="Produit 3">
+                <h4>Nom du Produit 3</h4>
+                <p class="prix">Prix : 3.000 CFA</p>
+                <p class="category">Jersey</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="image/voiles/voile4.jpg" alt="Produit 4">
+                <h4>Nom du Produit 4</h4>
+                <p class="prix">Prix : 5.000 CFA</p>
+                <p class="category">Soie de Médine</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+      </div>
+
+      <!-- Khimar -->
+      <div class="row">
+        <div class="col-md-3">
+            <div class="product">
+                <img src="image/khimar/khimar1.jpg" alt="Produit 1">
+                <h4>Nom du Produit 1</h4>
+                <p class="prix">Prix : 1.500 CFA</p>
+                <p class="category">Khimar simple</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="image/khimar/khimar2.jpg" alt="Produit 2">
+                <h4>Nom du Produit 2</h4>
+                <p class="prix">Prix : 2.000 CFA</p>
+                <p class="category">Khimar 2/3</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="image/khimar/khimar3.jpg" alt="Produit 3">
+                <h4>Nom du Produit 3</h4>
+                <p class="prix">Prix : 2.500 CFA</p>
+                <p class="category">Khimar maron</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="product">
+                <img src="image/khimar/khimar4.jpg" alt="Produit 4">
+                <h4>Nom du Produit 4</h4>
+                <p class="prix">Prix : 3.000 CFA</p>
+                <p class="category">Khimar rose nude</p>
+                <a href="#" class="btn">Choix des options</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-9">
+                <div class="container productGallery">
+                     First Range of image 
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <img src="./image/jilbeb/H24e9fdfa97774197a6bff8fa5e9c4879C.jpeg_100x100xz.webp" alt="">
+                            <span>Jilbeb</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/jilbeb/jilbeb.webp" alt="">
+                            
+                            <span>Jilbeb</span>
+                        </div>
+
+                        <div class="col-3 mb-3">
+                            <img src="./image/jilbeb/jilbeb2.webp" alt="">
+                            
+                            <span>Jilbeb</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/jilbeb/jilbeb4.webp" alt="">
+                            
+                            <span>Jilbeb</span>
+                        </div>
+                    </div>
+
+                     Second Range of Image 
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <img src="./image/robe/H0848e60ec8cc4588bfd06e89b31006f1X.jpg_100x100xz.jpg" alt="">
+                            <span>Robes</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/robe/H3438717897e34d6181bce048ddacb1edI.jpg_100x100xz.jpg" alt="">
+                            
+                            <span>Robes</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/robe/H50a98c7dc86740d99ffd881af1cd6004v.jpg_100x100xz.jpg" alt="">
+                            
+                            <span>Robes</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/robe/H6020845fbc214effad4fe9b2014a597e1.jpg_100x100xz.jpg" alt="">
+                            
+                            <span>Robes</span>
+                        </div>
+                    </div>
+
+                     Third Range of Image 
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <img src="./image/Ensemble/Ensemble1.jpeg" alt="">
+                            
+                            <span>Ensembles</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/Ensemble/Ensemble2.jpeg" alt="">
+                            
+                            <span>Ensembles</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/Ensemble/Ensemle3.jpeg" alt="">
+                            
+                            <span>Ensembles</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/Ensemble/Ensemble4.jpeg" alt="">
+                            
+                            <span>Ensembles</span>
+                        </div>
+                    </div>
+                    
+                     Four Range of Image 
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/voiles perlées.jpeg" alt="">
+                            
+                            <span>Voiles</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/voiles sati2.webp" alt="">
+                            
+                            <span>Voiles</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/voiles sati.webp" alt="">
+                            
+                            <span>Voiles</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/hijab.jpg" alt="">
+                            
+                            <span>Voiles</span>
+                        </div>
+                    </div>
+
+                     Five Range of Image
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/voiles perlées.jpeg" alt="">
+                            
+                            <span>Khimar</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/voiles sati2.webp" alt="">
+                            
+                            <span>Khimar</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/voiles sati.webp" alt="">
+                            
+                            <span>Khimar</span>
+                        </div>
+                        
+                        <div class="col-3 mb-3">
+                            <img src="./image/voiles/hijab.jpg" alt="">
+                            
+                            <span>Khimar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-3 social-icons">
+                <!-- Icône réseau social 1 -->
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <!-- Icône réseau social 2 -->
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+              </div>
+              <div class="col-md-6 footer-nav">
+                <!-- Menu de navigation -->
+                <ul class="menu-list">
+                  <li><a class="active" href="boutique.html">Boutique</a></li>
+                  <li><a href="a-propos.html">À propos</a></li>
+                  <li><a href="contact.html">Nous contacter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row foot-bottom">
+          <div class="col-md-6">
+            <div class="row section">
+              <div class="col footer-section">
+                <h4>Liens utiles</h4>
+                <ul>
+                  <li><a href="#">Remboursement et Retours</a></li>
+                  <li><a href="#">Conditions d'utilisation</a></li>
+                </ul>
+              </div>
+              <div class="col footer-section">
+                <h4>Articles</h4>
+                <ul>
+                  <li><a href="#">Nos ensembles</a></li>
+                  <li><a href="#">Nos Abayas</a></li>
+                </ul>
+                <h4>Infos Utiles</h4>
+                <p style="text-align: left;">Nous n'acceptons pas de retours pour les tenues livrées en dehors du Sénégal.</p>
+              </div>
+              <div class="col footer-section">
+                <h4>Notre politique</h4>
+                <ul>
+                  <li><a href="#">Politique de confidentialité</a></li>
+                  <li><a href="#">Utilisation des cookies</a></li>
+                </ul>
+                <h4>Conditions de Livraison</h4>
+                <p style="text-align: left;">Pour toute livraison en dehors du Sénégal, veuillez contacter notre service commercial.</p>
+              </div>
+              <div class="col footer-section">
+                <h4>Nous contacter</h4>
+                <p style="text-align: left;">Pour toute demande, veuillez nous contacter comme suit:</p>
+                <div class="adress">
+                  <span><i class="fa-solid fa-location-dot"></i></span>
+                  <div class="adress-name">Adresse: <br> <span>Dakar, Senegal</span></div>
+                </div>
+                <div class="phone">
+                  <span><i class="fa-solid fa-phone"></i></span>
+                  <div class="phone-name">Phone: <br> <span>+221 78 178 17 92</span></div>
+                </div>
+                <div class="email">
+                  <span><i class="fa-solid fa-at"></i></span>
+                  <div class="email-name">Email: <span>fagueyediop02@gmail.com</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row foot-copyright">
+          <div class="col">
+            <p>Copyright © 2024 - Khadeejah's Clothes</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- JS Carousel, toujours ajouter le script bundle.min.js pour activer le carousel -->
+    <script src="script.js"></script>
+    <script src="./boostrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</body>
+</html>
